@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+.env
+.env.*
+.catalogue-source.html
+.profile-audit.json
+.value-review.json
+.remove-values.json
