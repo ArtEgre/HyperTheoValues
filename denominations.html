@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TheoValues - All denominations</title>
+    <title>HyperTheoValues - All Denominations</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/svg" href="icon.svg">
+    <link rel="icon" type="image/svg+xml" href="icon.svg">
     <script src="theme.js"></script>
+    <script src="linebreak.js"></script>
 </head>
 <body>
     <div class="main-container">
-        <h1>All denominations</h1>
-        <p class="intro-text">Below is a collection of all denominations included in TheoValues, divided by their political category.</p>
+        <h1>All Denominations</h1>
+        <p class="intro-text">Below is a collection of all denominations included in HyperTheoValues, divided by their denominational family. Profiles use the linked sources and the values available in this test; some traditions are represented by focused profiles with unspecified categories.</p>
         
         <div id="denominations-container"></div>
         
@@ -40,9 +41,9 @@
                 const bubble = document.createElement('a');
                 bubble.className = 'label-bubble';
                 bubble.href = `description.html?id=${encodeURIComponent(name)}&type=denomination`;
-                bubble.innerText = name;
+                setName(bubble, name);
                 
-                bubble.style.backgroundColor = labelColors[name] || "#7a7a7a";
+                bubble.style.backgroundColor = denominationColors[name] || "#7a7a7a";
                 bubble.style.textDecoration = 'none';
                 bubble.style.fontSize = "1.1rem";
                 bubble.style.margin = "8px";
