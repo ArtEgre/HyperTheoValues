@@ -2,7 +2,7 @@
   "theology_proper": [
     {
       "id": "tp1",
-      "text": "Which account of God's relationship with creation best expresses your view?",
+      "text": "What is the fundamental metaphysical nature of God in relation to the universe?",
       "options": [
         {
           "text": "A transcendent Creator distinct from and sovereign over an objectively real cosmos",
@@ -15,10 +15,6 @@
         {
           "text": "God is transcendent in His essence, while His uncreated energies sustain creation and communicate divine life without making creation part of His essence",
           "next": "palamite_panentheism"
-        },
-        {
-          "text": "Another account of this subject",
-          "next": "theology_proper_additional_values"
         }
       ]
     },
@@ -129,16 +125,6 @@
     },
     {
       "id": "monistic_idealism"
-    },
-    {
-      "id": "theology_proper_additional_values",
-      "text": "Which account best expresses your view?",
-      "options": [
-        {
-          "text": "Tritheism — Holds that the Godhead consists of three separate, individual divine beings (Father, Son, and Holy Ghost) united in purpose and perfection rather than substance, with the Father and Son possessing physical bodies.",
-          "next": "tritheism"
-        }
-      ]
     }
   ],
   "christology": [
@@ -292,10 +278,6 @@
         {
           "text": "Through dynamic ongoing revelation or modern critical re-evaluations",
           "next": "b_dynamic_modern"
-        },
-        {
-          "text": "Another account of this subject",
-          "next": "bibliology_additional_values"
         }
       ]
     },
@@ -423,20 +405,6 @@
     },
     {
       "id": "modernism"
-    },
-    {
-      "id": "bibliology_additional_values",
-      "text": "Which account best expresses your view?",
-      "options": [
-        {
-          "text": "Magisterialism — Divine revelation can only be authoritatively interpreted and defined by an official, living institutional teaching office or designated organizational channel whose leadership possesses divine guidance or infallibility.",
-          "next": "magisterialism"
-        },
-        {
-          "text": "Conciliarism — Scripture and apostolic tradition are interpreted through the received councils and collective teaching of the Church rather than a single exclusive teaching office. Different communions recognize different sets of councils; the value does not imply recognition of every Byzantine council.",
-          "next": "conciliarism"
-        }
-      ]
     }
   ],
   "pneumatology": [
@@ -639,10 +607,6 @@
         {
           "text": "The elements do not physically contain Christ's body, serving instead as spiritual channels or commemorative covenant ordinances",
           "next": "s_ordinance_models"
-        },
-        {
-          "text": "Another account of this subject",
-          "next": "sacramentology_additional_values"
         }
       ]
     },
@@ -702,28 +666,6 @@
     },
     {
       "id": "asacramentalism"
-    },
-    {
-      "id": "sacramentology_additional_values",
-      "text": "Which account best expresses your view?",
-      "options": [
-        {
-          "text": "Asacramentalism — Baptism and communion are understood as inward spiritual realities and are practiced without requiring outward water baptism or ritual bread and wine. This value describes non-observance of the outward rites, not necessarily rejection of their use in other churches.",
-          "next": "asacramentalism"
-        },
-        {
-          "text": "Mystical Realism — The Eucharistic bread and wine truly become the Body and Blood of Christ as a holy mystery, without requiring a definitive scholastic account of substance and accidents. This differs from spiritual presence alone and from a defined sacramental union of unchanged bread and wine with Christ's Body and Blood.",
-          "next": "mystical_realism"
-        },
-        {
-          "text": "Pneumatic Presence — Sacraments are covenant signs and seals wherein Christ is spiritually and pneumatically present to faith during communion, rather than physically present on the altar.",
-          "next": "pneumatic_presence"
-        },
-        {
-          "text": "Memorialism — Baptism and the Lord's Supper are symbolic acts of dedication, testimony, or remembrance rather than instruments that themselves confer regeneration or change bread and wine into Christ's Body and Blood. Traditions differ on who participates and when these acts occur.",
-          "next": "memorialism"
-        }
-      ]
     }
   ],
   "soteriology": [
@@ -738,10 +680,6 @@
         {
           "text": "A moral awakening inspired by Christ's supreme demonstration of love, leading humanity to ethical renewal without penal or substitutionary blood atonement",
           "next": "moral_influence"
-        },
-        {
-          "text": "Another account of this subject",
-          "next": "soteriology_additional_values"
         }
       ]
     },
@@ -801,16 +739,6 @@
     },
     {
       "id": "moral_influence"
-    },
-    {
-      "id": "soteriology_additional_values",
-      "text": "Which account best expresses your view?",
-      "options": [
-        {
-          "text": "Covenantal Nomism — Salvation is strictly conditional upon active covenant discipleship, requiring faith combined with lifelong obedience to God's commandments, moral laws, and prescribed ordinances.",
-          "next": "covenantal_nomism"
-        }
-      ]
     }
   ],
   "ecclesiology": [
@@ -825,10 +753,6 @@
         {
           "text": "The Church is an unprogrammed, egalitarian spiritual fellowship with no formal ordained clergy, sacramental offices, or institutional hierarchy",
           "next": "non_clerical"
-        },
-        {
-          "text": "Another account of this subject",
-          "next": "ecclesiology_additional_values"
         }
       ]
     },
@@ -888,16 +812,6 @@
     },
     {
       "id": "non_clerical"
-    },
-    {
-      "id": "ecclesiology_additional_values",
-      "text": "Which account best expresses your view?",
-      "options": [
-        {
-          "text": "Centralism — Final governing authority is vested in a central head, supreme office, or governing council whose decisions bind the wider church or movement. This concerns the location of governing authority, not whether that body claims to be the only true Church.",
-          "next": "centralism"
-        }
-      ]
     }
   ],
   "eschatology": [
@@ -916,10 +830,6 @@
         {
           "text": "Present or progressive realization: the Millennium is Christ's spiritual reign during the church age or an earthly golden age achieved prior to His return",
           "next": "esch_present_future_kingdom"
-        },
-        {
-          "text": "Another account of this subject",
-          "next": "eschatology_additional_values"
         }
       ]
     },
@@ -965,16 +875,6 @@
     },
     {
       "id": "preterism"
-    },
-    {
-      "id": "eschatology_additional_values",
-      "text": "Which account best expresses your view?",
-      "options": [
-        {
-          "text": "Premillennialism — Christ's future return precedes a literal millennial reign on earth. This value denotes an earthly millennium without the separate Israel–Church prophetic programs and two-stage return that define this test's Dispensationalism option. It differs from the Adventist Heavenly Millennium.",
-          "next": "premillennialism"
-        }
-      ]
     }
   ]
 }
